@@ -51,7 +51,7 @@ Tools:
 🛠️ How to Run Locally
 
 🔹 Step 1: Clone the Repository:
-git clone https://github.com/RohanAhmad3434/Attendance-Management-System.git
+git clone https://github.com/RohanAhmad3434/Attendance-Management-System
 cd Attendance-Management-System
 
 🔹 Step 2: Set Up the Backend (Spring Boot)
