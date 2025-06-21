@@ -28,9 +28,9 @@ The Attendance Management System is a comprehensive solution built to automate t
 
 🔧 Tech Stack:
 
-Frontend: HTML, CSS, JavaScript
-Backend: Spring Boot (Java)
-Database: MySQL
+Frontend: HTML, CSS, JavaScript  
+Backend: Spring Boot (Java)  
+Database: MySQL  
 Tools: 
   - Postman (API Testing)
   - Spring Boot DevTools (Live Reload)
@@ -49,3 +49,33 @@ Tools:
 
 
 🛠️ How to Run Locally
+
+🔹 Step 1: Clone the Repository:
+git clone https://github.com/RohanAhmad3434/Attendance-Management-System.git
+cd Attendance-Management-System
+
+🔹 Step 2: Set Up the Backend (Spring Boot)
+Open the Backend folder in IntelliJ IDEA, Eclipse, or Spring Tool Suite.
+
+Configure your MySQL database in:
+Backend/src/main/resources/application.properties
+Update fields like:
+
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.datasource.url=jdbc:mysql://localhost:3306/attendance_db
+Make sure MySQL is running and the database attendance_db is created.
+
+Run the application by starting:
+AttendanceManagementApplication.java
+
+🔹 Step 3: Set Up the Frontend
+Navigate to the Frontend folder.
+Open index.html in any web browser.
+Make sure the frontend is calling the correct backend API endpoints (e.g., http://localhost:8080/...) in your JavaScript files.
+
+✅ Result
+You should now be able to:
+Access the app interface from your browser.
+Perform admin, teacher, and student actions as per the role-based UI.
+View, mark, and export attendance records.
