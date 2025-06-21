@@ -1,0 +1,127 @@
+/* General container styling */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+    text-align: center; /* Align content centrally */
+}
+
+/* Heading styles */
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #0056b3; /* Deep blue color */
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+/* Logout button styling */
+#logout {
+    display: inline-block; /* Inline for precise alignment */
+    margin: 15px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #d9534f; /* Soft red for logout */
+    border: none;
+    border-radius: 5px; /* Lightly rounded corners */
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#logout:hover {
+    background-color: #c9302c;
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+#logout:active {
+    background-color: #a94442;
+    transform: scale(0.95); /* Slight shrink effect on click */
+}
+
+/* Dropdown styling */
+#courseSelect {
+    width: 100%;
+    max-width: 300px; /* Moderate width */
+    padding: 10px;
+    margin: 15px auto;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#courseSelect:focus {
+    border-color: #0056b3; /* Matches heading color */
+    outline: none;
+}
+
+/* Buttons styling */
+button {
+    display: inline-block; /* Inline for alignment */
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #5cb85c; /* Soft green for action buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+button:active {
+    background-color: #3e8e41;
+    transform: scale(0.95); /* Slight shrink effect on click */
+}
+
+/* Paragraph styling for running attendance result */
+#runningAttendance {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #444;
+    font-weight: bold;
+}
+
+/* Add spacing between sections */
+.container > * {
+    margin-bottom: 20px;
+}
+
+/* Make the page responsive */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
